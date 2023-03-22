@@ -8,14 +8,13 @@
 
     <!-- META -->
     <meta charset="utf-8">
-    <meta name="robots" content="noodp">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <!-- PAGE TITLE -->
     <title>Ishwar Chawla</title>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon32.png">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
@@ -23,6 +22,11 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta property="og:title" content="Ishwar Chawla's Portfolio Website">
+    <meta property="og:description" content="Hey! My name is Ishwar Chawla. I manage social media, am a graphic designer, and a video editor. On Instagram and Twitter, I typically pass my time doing insane things. After work, I frequently go to the gym or play video games. My social media accounts are on Instagram, Twitter, WhatsApp, and Snapchat.">
+    <meta property="og:image" content="assets/img/logo.png">
 
 
 </head>
@@ -51,8 +55,9 @@
                     <!-- ANIMATION CONTAINER -->
                     <div class="animation-container animation-fade-right" data-animation-delay="0">
 
-                        <h1>I'm Ishwar Chawla and I design Stuff.</h1>
-
+                        <!-- <h1>I'm Ishwar Chawla and I design Stuff.</h1> -->
+                        <img src="assets/img/signature.png" alt="" srcset="">
+                        <br><br>
                     </div>
                     <!-- /ANIMATION CONTAINER -->
 
@@ -60,7 +65,7 @@
                     <!-- ANIMATION CONTAINER -->
                     <div class="animation-container animation-fade-right" data-animation-delay="200">
 
-                        <a href="#about" class="smooth-scroll">Learn More<div class="circle"><i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div></a>
+                        <a onclick="openLink('#about')" class="smooth-scroll">Learn More<div class="circle"><i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div></a>
 
 
 
@@ -77,13 +82,14 @@
 
 
             <!-- ABOUT -->
+            <br>
             <section id="about">
 
 
                 <h3 class="headline scroll-animated">About Me</h3>
 
                 <p class="scroll-animated">
-                    Hey! this is Ishwar chawla. I'm a graphic designer, Video editor, Website tester, social media handler. I usually spend my time doing crazy stuff on Instagram and Twitter. You will usually find me at the Gym or playing Video games after work. You can contact me through Instagram, Twitter, WhatsApp and Snapchat.
+                    Hey! My name is Ishwar Chawla. I manage social media, am a graphic designer, and a video editor. On Instagram and Twitter, I typically pass my time doing insane things. After work, I frequently go to the gym or play video games. My social media accounts are on Instagram, Twitter, WhatsApp, and Snapchat.
                 </p>
 
 
@@ -253,9 +259,7 @@
 
                     <textarea id="contact-form-message" name="tthwy" class="form-control scroll-animated" placeholder="Message"></textarea>
 
-                    <button type="submit" class="form-control scroll-animated">Send Message<div class="circle"><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></div></button>
-
-                    <div class="success-message"><i class="fa fa-check" aria-hidden="true"></i>The Email was Sent Successfully!</div>
+                    <button type="submit" class="form-control scroll-animated">Send Message</button>
 
 
                 </form>
@@ -274,28 +278,28 @@
                 <ul class="social-icons scroll-animated">
 
                     <li>
-                        <a target="_blank" href="https://www.instagram.com/_.ishwar_chawla._/">
+                        <a onclick="openLink('https://www.instagram.com/_.ishwar_chawla._/')">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a target="_blank" href="https://twitter.com/Ishwar_chawla_">
+                        <a onclick="openLink('https://twitter.com/Ishwar_chawla_')">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a href="mailto:ishwarchawla2312@gmail.com">
+                        <a onclick="openLink('mailto:ishwarchawla2312@gmail.com')">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </li>
 
                     <li>
-                        <a target="_blank" href="http://www.linkedin.com/in/ishwarchawla/">
+                        <a onclick="openLink('http://www.linkedin.com/in/ishwarchawla/')">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
@@ -323,6 +327,7 @@
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
 
 
 </body>
