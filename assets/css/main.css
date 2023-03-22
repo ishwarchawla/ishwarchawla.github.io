@@ -1062,3 +1062,8 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* Signature Image */
+.signature-image {
+  width: 100%;
+}
