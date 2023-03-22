@@ -18,11 +18,22 @@
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet'>
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <style>
+        body {
+            font-family: "PT Mono";
+            background-color: black;
+            overflow: hidden;
+            background-image: url('https://media.tenor.com/rDkY5jEeSvMAAAAC/daddyaf-brainwash.gif');
+            background-size: cover !important;
+            background-position: center !important;
+            backdrop-filter: blur(8px) !important;
+        }
+    </style>
 
 
 </head>
@@ -49,8 +60,12 @@
                     <div class="animation-container animation-fade-right" data-animation-delay="0">
 
                         <h1>Error 404</h1>
-                        <p>Page Not Found :/</p>
-                        <a href="https://ishwarchawla.me">Go Back?</a>
+                        <p>
+                            Page Not Found :/
+                            <br>
+                            <span style="cursor: pointer;" onclick="openLink('https://ishwarchawla.me')">Go Back?</span>
+                        </p>
+
 
                     </div>
                     <!-- /ANIMATION CONTAINER -->
@@ -73,6 +88,8 @@
     <!-- JAVASCRIPT -->
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+
 
 
 </body>
