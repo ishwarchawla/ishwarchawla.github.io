@@ -1067,3 +1067,18 @@ button {
 .signature-image {
   width: 100%;
 }
+
+/* Word Link */
+.word-link {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 2px;
+  transition: 200ms;
+}
+
+.word-link:hover {
+  transition: 200ms;
+}
