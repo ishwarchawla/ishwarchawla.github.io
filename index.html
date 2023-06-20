@@ -2,11 +2,15 @@
 <html lang="en-US" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ishwar Chawla</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicons/favicon.png">
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- PAGE TITLE -->
+    <title>Ishwar Chawla</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon32.png">
 
   <!-- OPEN GRAPH TAGS -->
   <meta property="og:title" content="Ishwar Chawla's Portfolio Website">
@@ -30,9 +34,8 @@
     gtag('config', 'G-8TT4X5YQ10');
   </script>
 
-  <!-- Google Adsense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8741502796604057" crossorigin="anonymous"></script>
-
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8741502796604057" crossorigin="anonymous"></script>
 </head>
 
 
@@ -44,63 +47,228 @@
   <main class="main" id="top">
     <div class="cursor-outer d-none d-md-block"></div>
 
-    <nav class="navbar navbar-light py-3 px-0 overflow-hidden">
-      <div class="container px-md-5">
-        <div class="row w-100 g-0 justify-content-between">
-          <div class="col-8">
-            <div class="d-inline-block">
-              <a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="index.html">
-                <span class="fw-bolder ms-2">Ishwar</span>
-                <span class="fw-thin">Chawla</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-4 d-lg-none text-end pe-0">
-            <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
-          </div>
-          <div class="offcanvas offcanvas-end px-0" id="navbarOffcanvas" aria-labelledby="navbarOffcanvasTitle" aria-hidden="true">
-            <div class="offcanvas-header justify-content-end">
-              <h5 class="visually-hidden offcanvas-title" id="navbarOffcanvasTitle">Menu</h5>
-              <button class="btn p-0 shadow-none text-black fs-2 d-inline text-end" type="button" data-bs-dismiss="offcanvas" aria-label="Close"><span class="menu-close-bar"></span></button>
-            </div>
-            <div class="offcanvas-body px-0">
-              <div class="d-lg-flex flex-center-start gap-3 overflow-hidden">
-                <ul class="navbar-nav ms-auto fs-4 ps-6">
-                  <li class="nav-item">
-                    <a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5 active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="clients.html">Clients</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="contact.html">Contact Now</a>
-                  </li>
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+
+        <!-- CONTENT AREA INNER -->
+        <div class="content-area-inner">
+
+            <!-- INTRO -->
+            <section id="intro">
+
+                <!-- CONTAINER MID -->
+                <div class="container-mid">
+
+                    <!-- ANIMATION CONTAINER -->
+                    <div class="animation-container animation-fade-right" data-animation-delay="0">
+                        <!-- <h1>I'm Ishwar Chawla and I design Stuff.</h1> -->
+                        <img class="signature-image" src="assets/img/signature.png">
+                        <br><br>
+                    </div>
+                    <!-- /ANIMATION CONTAINER -->
+
+                    <!-- ANIMATION CONTAINER -->
+                    <div class="animation-container animation-fade-right" data-animation-delay="200">
+
+                        <a onclick="openLink('#about')" class="smooth-scroll">Learn More<div class="circle"><i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div></a>
+
+                    </div>
+                    <!-- /ANIMATION CONTAINER -->
+
+                </div>
+                <!-- /CONTAINER MID -->
+
+            </section>
+            <!-- /INTRO -->
+
+            <!-- ABOUT -->
+            <br>
+            <section id="about">
+
+
+                <h3 class="headline scroll-animated">About Me</h3>
+
+                <p class="scroll-animated">
+
+                    Hey it's Ishwar chawla here. I'm just a normal guy thinking about weird stuff creating weird designs. I usually spend my time playing <span class="word-link" onclick="openLink('https://playvalorant.com/en-us/')">video games</span>, scrolling <span class="word-link" onclick="openLink('https://twitter.com/Ishwar_chawla_')">Twitter</span> and <span class="word-link" onclick="openLink('https://www.instagram.com/_.ishwar_chawla._/')">Instagram</span>. And yeah you'll find my designs on Pinterest.
+
+                </p>
+
+
+                <!-- CLIENTS -->
+                <div class="row clients scroll-animated">
+
+
+                    <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-1.png" alt="client"></div>
+                    <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-2.png" alt="client"></div>
+                    <!-- <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-3.png" alt="client"></div> -->
+                    <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-4.png" alt="client"></div>
+                    <div class="col-md-3 col-xs-6"><img class="img-responsive" src="assets/img/clients/client-5.png" alt="client"></div>
+
+
+                </div>
+                <!-- /CLIENTS -->
+
+
+            </section>
+            <!-- /ABOUT -->
+
+
+            <!-- SERVICE -->
+            <section id="service">
+
+                <h3 class="headline scroll-animated">Services</h3>
+
+                <!-- SERVICE LIST -->
+                <ul class="services-list">
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-1" aria-expanded="false">Graphic Designing</button>
+
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-1">
+
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography, and illustration.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-2" aria-expanded="false">Video Editing</button>
+
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-2">
+
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p>Content creation is the process of producing and publishing original material, such as text, images, videos, and audio to engage an audience.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-3" aria-expanded="false">Social Media Management</button>
+
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-3">
+
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p>Social Media Management is the process of managing online presence on various social media platforms.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse" data-target="#collapse-item-4" aria-expanded="false">UI &amp; UX Design</button>
+
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-4">
+
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”, both elements are crucial to a product and work closely together. UI/UX design is to create a product that will be both visually appealing and highly pleasant to interact with.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="d-none d-lg-flex justify-content-end position-relative z-index-1">
-              <div class="position-absolute absolute-centered z-index--1">
-                <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">
-                  Home
-                </h1>
-              </div>
-              <div class="d-flex gap-3 align-items-start">
-                <a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="contact.html">Contact Now</a>
-                <ul class="navbar-nav navbar-fotogency ms-auto text-end">
-                  <li class="nav-item px-2 position-relative">
-                    <a class="nav-link pt-0 active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item px-2 position-relative">
-                    <a class="nav-link pt-0" aria-current="page" href="clients.html">Clients</a>
-                  </li>
-                  <li class="nav-item px-2 position-relative">
-                    <a class="nav-link pt-0" aria-current="page" href="about.html">About</a>
-                  </li>
+                <!-- /SERVICE LIST -->
+
+            </section>
+            <!-- /SERVICE -->
+
+
+            <!-- CONTACT -->
+            <section id="contact">
+
+                <h3 class="headline scroll-animated">Contact Me</h3>
+
+                <!-- CONTACT FORM -->
+                <form id="contact-form" action="http://quantumbytestudios.alwaysdata.net/contact-ishwar.php" method="post">
+
+
+                    <input id="contact-form-name" type="text" name="uoxbp" class="form-control scroll-animated" placeholder="Name">
+
+                    <input id="contact-form-email" type="text" name="xmtmc" class="form-control scroll-animated" placeholder="Email">
+
+                    <textarea id="contact-form-message" name="tthwy" class="form-control scroll-animated" placeholder="Message"></textarea>
+
+                    <button type="submit" class="form-control scroll-animated">Send Message</button>
+
+                </form>
+                <!-- /CONTACT FORM -->
+
+            </section>
+            <!-- /CONTACT -->
+
+
+            <!-- FOOTER -->
+            <section id="footer">
+
+                <!-- SOCIAL ICONS -->
+                <ul class="social-icons scroll-animated">
+
+                    <li>
+                        <a onclick="openLink('https://www.instagram.com/_.ishwar_chawla._/')">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a onclick="openLink('https://twitter.com/Ishwar_chawla_')">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a onclick="openLink('mailto:ishwarchawla2312@gmail.com')">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a onclick="openLink('http://www.linkedin.com/in/ishwarchawla/')">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
                 </ul>
               </div>
             </div>
@@ -115,60 +283,14 @@
     <!-- <section> begin ============================-->
     <section class="py-4 pt-md-0 pb-8 pb-sm-11 mt-lg-n8">
 
-      <div class="container px-md-5">
-        <div class="row">
-          <div class="col-md-9 col-lg-7">
-            <h1 class="fs-4 fs-md-6 fs-xl-7 mb-5 mb-lg-0 position-relative z-index-2">Ishwar <span class="fw-thin text-300">deals with producing visuals, such as </span><span class="text-400">illustrations, logos, layouts, and UX/UI Designs.</span></h1>
-          </div>
+                <p class="scroll-animated">© 2023 Ishwar Chawla | Design by <a href=".">Ishwar Chawla</a></p>
+
+            </section>
+            <!-- /FOOTER -->
+
         </div>
-        <div class="row mt-md-n6">
-          <div class="col-2 d-none d-lg-block mt-auto"><img class="img-fluid" src="assets/img/home/img2.png" alt="" /></div>
-          <div class="col-1 mt-auto d-none d-lg-block"><a class="scroll-indicator text-warning" href="#footer"> <span>SCROLL </span><img src="assets/img/icons/long-arrow.png" alt="" /></a></div>
-          <div class="col-lg-7 position-relative">
-            <div class="position-relative overflow-hidden overflow-md-visible"><img class="img-fluid" src="assets/img/home/img1.png" alt="" />
-              <div class="img-circle p-5 p-md-7 rounded-circle"></div>
-              <div class="img-circle-2 p-5 p-md-7 rounded-circle"></div>
-            </div>
-            <div class="position-absolute bottom-n100 col-11 mt-6 d-none d-md-block">
-              <p class="fs-2 lh-1 text-400">
-                “<b>Design is thinking made visual.</b>” – Saul Bass, designer & filmmaker
-              </p>
-              <p class="text-300 text-justify">
-                When we design something, we are not just creating something that looks good, but we are thinking through the process of how it will be used, who it will be used by, and what message it should convey. This thinking process involves analyzing the problem or need, researching the audience, and determining the best way to visually communicate the solution.
-              </p>
-            </div>
-            <div class="position-absolute start-0 bottom-0 d-lg-none"><a class="scroll-indicator text-warning" href="#footer"> <span>SCROLL </span><img src="assets/img/icons/long-arrow.png" alt="" /></a></div>
-          </div>
-          <div class="col-2 d-none d-lg-block mb-auto"><img class="img-fluid" src="assets/img/home/img3.png" alt="" /></div>
-        </div>
-      </div>
-      <!-- end of .container-->
+        <!-- /CONTENT AREA INNER -->
 
-    </section>
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-  </main>
-  <!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
-
-
-  <!-- Copyright Block -->
-  <section class="bg-black py-0">
-    <div class="container px-md-5">
-      <div class="row g-0 justify-content-md-between justify-content-evenly py-4">
-        <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
-          <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; IshwarChawla, 2023</p>
-        </div>
-        <div class="col-12 col-sm-8 col-md-6">
-          <p class="fs--1 fw-light my-2 text-center text-md-end text-100">
-            Designed by
-            <a class="fw-bold text-warning" href="https://ishwarchawla.me/" target="_blank">IshwarChawla</a>
-          </p>
-        </div>
-      </div>
     </div>
   </section>
   <!-- End of Copyright -->
