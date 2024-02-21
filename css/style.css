@@ -2549,7 +2549,22 @@ span.error {
 }
 
 /* Custom Css */
-
 .link-color-gray {
   color: #202020 !important;
+}
+
+/* Custom Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6c757d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6c757d;
 }
