@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Birthday Mahek</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <!-- GoogleFonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Style -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            font-weight: 700;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .card {
+            position: absolute;
+            cursor: grab;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="height: 90vh;" class="container d-flex justify-content-center align-items-center">
+        <center>
+            <div class="p-5 animate__animated animate__fadeIn">
+                <h1><b>Happy Birthday Mahek</b></h1>
+                <div class="p-5">
+                    <img class="img-fluid w-25" src="images/qr.png">
+                    <div id="Timer"></div>
+                </div>
+                <script>
+                    // Timer Counting Since August 1 2024 to Current Date
+                    var countDownDate = new Date("Aug 1, 2024 00:00:00").getTime();
+                    var x = setInterval(function () {
+                        var now = new Date().getTime();
+                        var distance = now - countDownDate;
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        document.getElementById("Timer").innerHTML = days + " days, " + hours + " hours, " +
+                            minutes + " minutes, " +
+                            seconds +
+                            " seconds since August 1st, 2024.";
+                    }, 1000);
+                </script>
+            </div>
+        </center>
+
+        <!-- Alert card d-flex align-items-center justify-content-centers -->
+        <div class="alert alert-danger card d-flex align-items-center justify-content-center" id="cardOne"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - Mahek, you are truly one of a kind. Your beauty, both inside and out, never ceases to amaze me. The
+                way you light up any room with your smile, the kindness and love you radiate, and the strength you show
+                in every situation—it's all so inspiring. I'm incredibly lucky to have you by my side, and I cherish
+                every moment with you. You're not just my love, but my greatest support and my heart's home.
+            </p>
+        </div>
+        <div class="alert alert-success card d-flex align-items-center justify-content-center" id="cardTwo"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - You have the most stunning figure that leaves me absolutely mesmerized. Your confidence and beauty
+                make you irresistibly captivating.
+            </p>
+        </div>
+        <div class="alert alert-primary card d-flex align-items-center justify-content-center" id="cardThree"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - Your face is the perfect blend of cuteness and charm—so adorable that it feels like it could brighten
+                even the darkest day. 🥰
+            </p>
+        </div>
+        <div class="alert alert-info card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - Your hands are so delicate and beautiful, they feel like they were made to hold mine. Every touch
+                carries warmth and care, and I can’t help but admire how graceful and perfect they are.
+            </p>
+        </div>
+        <div class="alert alert-warning card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                Your fingers are so delicate and graceful, like they were made to create beauty and hold warmth. Just
+                watching them move is mesmerizing, and holding them feels like holding a piece of heaven.
+            </p>
+        </div>
+        <div class="alert alert-success card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                Your eyes are like a mesmerizing story, full of depth and wonder, drawing me in every time I look at
+                you. They hold a beauty that words can’t fully capture—a perfect blend of warmth, mystery, and magic.
+            </p>
+        </div>
+        <div class="alert alert-danger card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - Your red hair is absolutely mesmerizing—it’s like a fiery sunset, bold and beautiful, perfectly
+                matching your vibrant personality. It makes you stand out in the most stunning way!
+            </p>
+        </div>
+        <div class="alert alert-info card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                We’ve had our share of rough times and happy moments, but we always chose to work through every issue,
+                understand each other, and stand by each other during the tough times.
+            </p>
+        </div>
+        <div class="alert alert-secondary card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                - It’s been over three amazing months since our journey began on August 1st, and every moment with you
+                has been pure joy.
+            </p>
+        </div>
+        <div class="alert alert-primary card d-flex align-items-center justify-content-center" id="cardFour"
+            style="width: 40rem; height: 30rem;">
+            <p class="text-justify">
+                Drag to reveal
+            </p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function makeDraggable(element) {
+            let offsetX = 0,
+                offsetY = 0,
+                isDragging = false;
+
+            element.addEventListener('mousedown', (e) => {
+                isDragging = true;
+                offsetX = e.clientX - element.offsetLeft;
+                offsetY = e.clientY - element.offsetTop;
+                element.style.cursor = 'grabbing';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging) {
+                    element.style.left = e.clientX - offsetX + 'px';
+                    element.style.top = e.clientY - offsetY + 'px';
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                isDragging = false;
+                element.style.cursor = 'grab';
+            });
+        }
+
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => makeDraggable(card));
+    </script>
+
+</body>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+
+</html>
